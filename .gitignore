@@ -19,3 +19,6 @@ doc/
 .project
 .DS_Store
 .idea
+
+# Ingore Paperclip uploaded files
+/public/system
