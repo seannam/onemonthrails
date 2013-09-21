@@ -1,4 +1,6 @@
-<% unless user_signed_in? %>
+<% if user_signed_in? %>
+
+<% else %>
 	<div class="center hero-unit">
 		<h1>Welcome to One Month Rails</h1>
 		<p>
